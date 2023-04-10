@@ -1,0 +1,23 @@
+{
+  "name": "chatterson",
+  "version": "1.0.0",
+  "description": "AI personality chatbot web project with MERN stack",
+  "main": "server/index.js",
+    "scripts": {
+      "start": "node server/index.js",
+      "start-watch": "nodemon server/index.js",
+      "dev": "concurrently \"npm run start-watch\" \"cd client && npm run dev\""
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
+  }
+}
