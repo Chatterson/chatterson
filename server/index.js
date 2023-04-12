@@ -26,7 +26,7 @@ app.use("/api/room", chatRoomRoutes);
 app.use("/api/message", chatMessageRoutes);
 app.use("/api/user", userRoutes);
 
-const server = app.listen( () => {
+const server = app.listen(PORT, () => {
   console.log(`Server listening on port`);
 });
 
