@@ -32,7 +32,7 @@ const server = app.listen(PORT, () => {
 
 const io = new Server(server, {
   cors: {
-    origin: "https://chatterson.luismunhoz.com/",
+    origin: "https://chatterson.luismunhoz.com",
     credentials: true,
   },
 });
